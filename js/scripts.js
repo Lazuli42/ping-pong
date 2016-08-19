@@ -11,15 +11,15 @@ $("#form").submit(function(event) {
 
   for (i=1; i <= input; i++) {
     if ((i % 15) === 0) {
-      numbers.push("Ping Pong");
+      numbers.push("<b><i>Ping Pong</i></b>");
       pingPongs++;
     }
     else if ((i % 3) === 0) {
-      numbers.push("ping");
+      numbers.push("<b>ping</b>");
       pings++;
     }
     else if ((i % 5) === 0) {
-      numbers.push("pong")
+      numbers.push("<b>pong</b>")
       pongs++;
     }
     else {
