@@ -13,6 +13,8 @@ $("#form").submit(function(event) {
     if ((i % 15) === 0) {
       numbers.push("<b><i>Ping Pong</i></b>");
       pingPongs++;
+      pings++;
+      pongs++;
     }
     else if ((i % 3) === 0) {
       numbers.push("<b>ping</b>");
@@ -36,12 +38,13 @@ $("#form").submit(function(event) {
     i++
     if (i >= numbers.length) {
       $("#bigNumber").text(i++)
+      $(".pings").text(pings);
+      $(".pongs").text(pongs);
+      $(".pingPongs").text(pingPongs);
       clearInterval(printing)
     }
   }, (5000 / numbers.length))
 console.log(pings)
-  $(".pings").text(pings);
-  $(".pongs").text(pongs);
-  $(".pingPongs").text(pingPongs);
+
 
 });
