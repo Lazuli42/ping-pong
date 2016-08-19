@@ -16,7 +16,7 @@
 
       <form id="form" class="text-center">
         <div class="form-group">
-          <label for="numberInput" class="text-center">Enter a number, and Ping Pong will count upwards to that number. Numbers divisible by 3 will be replaced with "ping", numbers divisible by 5 will be replaced with "pong", and numbers divisible by both will become "Ping Pong".</label>
+          <label for="numberInput" class="text-center">Enter a number, and <em>Ping Pong</em> will count upwards to that number. Numbers divisible by 3 will be replaced with "ping", numbers divisible by 5 will be replaced with "pong", and numbers divisible by both will become "Ping Pong".</label>
           <input type="number" class="form-control center-block" id="numberInput" placeholder="Enter a number">
         </div>
 
@@ -25,7 +25,25 @@
 
       <h1 id="bigNumber" class="text-center">
       </h1>
-      <p id="output" class="text-center">
+
+      <div class="row text-center">
+        <div class="col-xs-4">
+          <h4># of Pings: <span class="pings"></span>
+          </h4>
+        </div>
+
+        <div class="col-xs-4">
+          <h4># of Pongs: <span class="pongs"></span>
+          </h4>
+        </div>
+
+        <div class="col-xs-4">
+          <h4># of Ping Pongs: <span class="pingPongs"></span>
+          </h4>
+        </div>
+      </div>
+
+      <p id="output" class="text-justify">
       </p>
 
     </div>
