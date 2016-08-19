@@ -4,5 +4,12 @@ input {
 
 #output {
   margin-top: 30px;
-  max-width: 8.5in;
+}
+
+.container {
+  max-width: 8in;
+}
+
+label {
+  margin-bottom: 20px;
 }
