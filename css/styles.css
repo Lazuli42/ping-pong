@@ -1,0 +1,8 @@
+input {
+  max-width: 400px;
+}
+
+#output {
+  margin-top: 30px;
+  max-width: 8.5in;
+}
