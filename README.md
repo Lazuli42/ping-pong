@@ -1,22 +1,22 @@
-  # _Ping Pong!_
+  Ping Pong!
 
-  #### _Number to text converter, 8/19/2016_
+  Number to text converter, 8/19/2016_
 
-  #### By _**Zachary Baum**_
+  By _**Zachary Baum**_
 
-  ## Description
+  Description
 
-  _Enter a number, and Ping Pong will count upwards to that number. Numbers divisible by 3 will be replaced with "ping", numbers divisible by 5 will be replaced with "pong", and numbers divisible by both will become "Ping Pong". _
+  _Enter a number, and Ping Pong will count upwards to that number. Numbers divisible by 3 will be replaced with "ping", numbers divisible by 5 will be replaced with "pong", and numbers divisible by both will become "Ping Pong"._
 
-  ## Setup/Installation Requirements
+  Setup/Installation Requirements
 
   _View the page on the web at the following link, or download the page and view locally._
 
   https://lazuli42.github.io/ping-pong
 
-  ## Specs
+  Specs
 
-  _1. When the user inputs a number, the program will return all the numbers before that number, starting at 1.
+  1. When the user inputs a number, the program will return all the numbers before that number, starting at 1.
     ex. 2 -> "1, 2"
 
   2. When the program would return a number divisible by 3, it instead returns "ping".
@@ -26,7 +26,7 @@
     ex. 5 -> "1, 2, ping, 4, pong".
 
   4. When a number is divisible by 3 and 5, program returns "ping pong!".
-    ex. 15 -> "1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping pong!"_
+    ex. 15 -> "1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping pong!"
 
   ## Support and contact details
 
